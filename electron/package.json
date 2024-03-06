@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Kothapalli Somasekhar",
+  "author": {
+    "name": "Kothapalli Somasekhar",
+    "email": "somunani2413@gmail.com"
+  },
   "license": "ISC"
 }
