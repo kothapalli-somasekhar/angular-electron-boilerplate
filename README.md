@@ -1,4 +1,4 @@
-# Angular and Electron Boilerplate (Angular CLI v17)
+# Angular and Electron Boilerplate (Angular CLI v15)
 
 [![Angular Logo](https://www.vectorlogo.zone/logos/angular/angular-icon.svg)](https://angular.io/) [![Electron Logo](https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg)](https://electronjs.org/)
 
@@ -12,7 +12,7 @@ This repository serves as a boilerplate for integrating Angular with Electron, u
 
 Currently runs with:
 
-- Angular v17.2.3
+- Angular v15.2.0
 - Electron v29.1.0
 
 ### Key Features
@@ -53,7 +53,7 @@ Provide step-by-step instructions on how to install your project.
 
 ```bash
 # Clone the repository
-git clone https://github.com/kothapalli-somasekhar/angular-electron-boilerplate
+git clone https://github.com/kothapalli-somasekhar/angular-electron-boilerplate -b v15
 ````
 
 ```bash
