@@ -59,6 +59,34 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "web": {
+              "optimization": false,
+              "outputHashing": "none",
+              "sourceMap": true,
+              "namedChunks": false,
+              "aot": false,
+              "extractLicenses": true,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.web.ts"
+                }
+              ]
+            },
+            "web-production": {
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.web.prod.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"
@@ -71,6 +99,12 @@
             },
             "development": {
               "buildTarget": "angular-electron-boilerplate:build:development"
+            },
+            "web": {
+              "buildTarget": "angular-electron-boilerplate:build:web"
+            },
+            "web-production": {
+              "buildTarget": "angular-electron-boilerplate:build:web-production"
             }
           },
           "defaultConfiguration": "development"
